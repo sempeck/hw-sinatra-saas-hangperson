@@ -8,9 +8,13 @@ class HangpersonGame
   # def initialize()
   # end
   
+  attr_accessor :word
+
   def initialize(word)
     @word = word
   end
+
+
 
   def self.get_random_word
     require 'uri'
